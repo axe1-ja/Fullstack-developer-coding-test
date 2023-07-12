@@ -1,0 +1,70 @@
+#root {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  align-content: center;
+}
+
+.headText {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  text-align:center;
+}
+
+.mainInput {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: large;
+  outline: none;
+  color:rgba(240, 255, 255, 0.5);
+  margin-top: 15px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: 0.3s;
+  width:350px;
+  margin-right: 10px;
+}
+
+.mainInput:focus{
+  color:azure;
+  border: 1px solid rgba(150, 150, 150, 0.3);
+  transform: scale(1.05);
+}
+
+.button-main {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: large;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: 0.3s;
+  transform: translateY(2px);
+  margin-left: 10px;
+}
+
+.button-main:hover{
+  color:azure;
+  border: 1px solid rgba(150, 150, 150, 0.3);
+  background-color: rgba(50, 50, 50, 0.7);
+  transform: scale(1.05) translateY(2px);
+}
+
+
+.d-inline {
+  display: inline-block;
+}
+
+.totalImages {
+  text-align: left;
+  width: 50%;
+}
+
+.renderedImages {
+  text-align: right;
+  width: 50%;
+}
+
+.resultGeneral {
+  margin-bottom: 30px;
+}
